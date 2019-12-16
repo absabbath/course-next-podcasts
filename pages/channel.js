@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import 'isomorphic-fetch'
 import ChannelGrid from '../components/ChannelGrid'
 import PodcastList from '../components/PodcastList'
 import Layout from '../components/Layout'
@@ -47,6 +47,14 @@ export default class extends React.Component {
 
 
       <style jsx>{`
+        .banner {
+            width: 100%;
+            padding-bottom: 25%;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-color: #aaa;
+        }
+
         h1 {
           font-weight: 600;
           padding: 15px;
