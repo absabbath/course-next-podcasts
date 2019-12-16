@@ -2,7 +2,7 @@ import 'isomorphic-fetch'
 import ChannelGrid from '../components/ChannelGrid'
 import PodcastList from '../components/PodcastList'
 import Layout from '../components/Layout'
-import Error from 'next/error'
+import Error from './_error'
 
 export default class extends React.Component {
 
